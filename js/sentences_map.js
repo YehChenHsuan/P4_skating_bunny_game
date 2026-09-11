@@ -1,4 +1,4 @@
-{
+window.SENTENCES_AUDIO_MAP = {
   "Collect all carrots starting with Cc": "assets/audios/sentences/bunny_collect_cc.mp3",
   "Find words starting with Cc": "assets/audios/sentences/bunny_find_cc.mp3",
   "Find words starting with letter Cc": "assets/audios/sentences/bunny_find_let_cc.mp3",
@@ -13,4 +13,4 @@
   "The playful cat can catch the little mouse. ... What can the playful cat do?": "assets/audios/sentences/bunny_act_f1b9bb72.mp3",
   "The big green frog can swim and jump. ... What can the green frog do in the pond?": "assets/audios/sentences/bunny_act_71c4d699.mp3",
   "Listen to the loud drum beat in music class. ... What makes a loud beat?": "assets/audios/sentences/bunny_act_6d1023a6.mp3"
-}
+};
