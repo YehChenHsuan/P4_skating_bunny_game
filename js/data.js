@@ -4,6 +4,7 @@
  * 主題：Farm Animals, Beginning Sounds & Consonant Blends
  */
 
+window.BOOK_ID = "P4";
 const P4_VOCABULARY = [
   {
     "id": "Holly",
@@ -777,10 +778,31 @@ const PHONICS_GROUPS = {
 // 課文動作與問答情境題庫
 const ANIMAL_ACTION_QUESTIONS = [
   {
-    "subject": "Cat",
-    "action": "catch",
-    "sentence": "The cat can catch the mouse!",
-    "question": "What can the cat do?",
+    "sentence": "The hungry boy wants a slice of warm bread.",
+    "question": "What does the boy want to eat?",
+    "ttsPrompt": "The hungry boy wants a slice of warm bread. What does the boy want?",
+    "options": [
+      "bread",
+      "drum",
+      "clock"
+    ],
+    "correct": "bread"
+  },
+  {
+    "sentence": "The friendly cow stays among the meadow grass.",
+    "question": "Where does the cow stay?",
+    "ttsPrompt": "The friendly cow stays among the meadow grass. Where does the cow stay?",
+    "options": [
+      "grass",
+      "tree",
+      "train"
+    ],
+    "correct": "grass"
+  },
+  {
+    "sentence": "The playful cat can catch the little mouse.",
+    "question": "What can the playful cat do?",
+    "ttsPrompt": "The playful cat can catch the little mouse. What can the cat do?",
     "options": [
       "catch",
       "swim",
@@ -789,52 +811,26 @@ const ANIMAL_ACTION_QUESTIONS = [
     "correct": "catch"
   },
   {
-    "subject": "Goat",
-    "action": "eat",
-    "sentence": "The goat can eat green grass.",
-    "question": "What does the goat eat?",
-    "options": [
-      "grass",
-      "drum",
-      "clock"
-    ],
-    "correct": "grass"
-  },
-  {
-    "subject": "Pig",
-    "action": "sleep",
-    "sentence": "The little pig can sleep in the barn.",
-    "question": "What can the pig do?",
-    "options": [
-      "sleep",
-      "skate",
-      "clap"
-    ],
-    "correct": "sleep"
-  },
-  {
-    "subject": "Duck",
-    "action": "swim",
-    "sentence": "The white duck can swim in the lake.",
-    "question": "What can the duck do?",
+    "sentence": "The big green frog can swim and jump.",
+    "question": "What can the green frog do in the pond?",
+    "ttsPrompt": "The big green frog can swim and jump. What can the frog do?",
     "options": [
       "swim",
-      "climb",
-      "cry"
+      "skate",
+      "clap"
     ],
     "correct": "swim"
   },
   {
-    "subject": "Frog",
-    "action": "jump",
-    "sentence": "The green frog can jump high.",
-    "question": "What can the frog do?",
+    "sentence": "Listen to the loud drum beat in music class.",
+    "question": "What makes a loud beat?",
+    "ttsPrompt": "Listen to the loud drum beat in music class. What makes a loud beat?",
     "options": [
-      "jump",
-      "skate",
-      "slide"
+      "drum",
+      "bread",
+      "fruit"
     ],
-    "correct": "jump"
+    "correct": "drum"
   }
 ];
 
